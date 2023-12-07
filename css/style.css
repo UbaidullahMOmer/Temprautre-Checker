@@ -43,6 +43,17 @@ body {
 
 
 
+/* ====== Selection ====== */
+/* ====== Selection ====== */
+
+
+::selection{
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+
+
+
 /* ====== Web Kit Scrollbar ====== */
 /* ====== Web Kit Scrollbar ====== */
 
@@ -82,67 +93,36 @@ body {
     line-height: normal;
 }
 
+.small__title {
+    color: var(--dark-color);
 
-
-
-.cards__container {
-    width: 100%;
-
-    display: grid;
-    gap: 32px;
-    grid-template-columns: repeat(4, 1fr);
-
-    .house__card {
-
-        /* Layout */
-
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-
-        padding: 18px;
-
-        /* Style */
-
-        border-radius: 10px;
-        background: #EEF2F3;
-        box-shadow: 0px 4px 9.4px 0px rgba(133, 160, 251, 0.20);
-
-        .card__img {
-
-            /* Layout */
-
-            display: flex;
-            align-items: center;
-            gap: 20px;
-
-        }
-
-        .house__text {
-
-            /* Layout */
-
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-
-            /* Style */
-
-            color: var(--dark-color);
-            font-family: Poppins;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-
-            >span {
-                color: var(--primary-color);
-            }
-        }
-
-        >.house__text {
-            padding-left: 7px;
-        }
+    font-family: Rajdhani;
+    font-size: 48px;
+    font-weight: 600;
+    
+    >span{
+        font-family: Rajdhani;
+        color: var(--primary-color);
     }
+}
+
+.btn {
+
+    /* Layout */
+
+    display: flex;
+    padding: 9px 20px;
+    justify-content: center;
+    align-items: center;
+
+    /* Style */
+
+    border-radius: 10px;
+    background: #637DDF;
+
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
