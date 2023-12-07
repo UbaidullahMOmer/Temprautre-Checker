@@ -6,7 +6,7 @@ body {
 }
 
 .house__detail {
-
+ 
     top: 72px;
     position: sticky;
 
@@ -70,7 +70,7 @@ body {
 }
 
 
-.room__container {
+.room__container { 
     display: flex;
     align-items: center;
     flex-direction: column;

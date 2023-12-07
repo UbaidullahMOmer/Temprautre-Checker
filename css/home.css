@@ -5,9 +5,9 @@
 .cards__container {
     width: 100%;
 
-    display: grid;
+    display: grid; 
     gap: 32px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
 
     .house__card {
 
